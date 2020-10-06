@@ -40,6 +40,32 @@ namespace ErsteKlasse
             Human dieter = new Human("Dieter", "Dietrich");
             dieter.IntroduceMyself();
 
+
+            Console.WriteLine("\n\nBox Klasse für PROPERTIES");
+            Box meineKiste = new Box(5,10,10);
+            //meineKiste.Length = 5; nicht nötig
+            //meineKiste.Height = 10; nicht nötig
+            //meineKiste.Width = 10; nicht nötig
+            //meineKiste.volume = 500; Volume wird berechnet!
+            meineKiste.DisplayInfo();
+
+
+            //hereuasforderung
+            Box neueKiste = new Box(10, 2, 5);
+            neueKiste.DisplayInfo();
+
+
+
+            //////Code vom Lehrer....
+            //////Box box = new Box(5, 3, 4);
+            //////Console.WriteLine("Die Gesichtsfläche ist {0}", box.FrontSurface);
+            //////Console.WriteLine("Volume ist {0}", box.Volume);
+
+            //////box.DisplayInfo();
+
+            //////Console.ReadKey();
+
+
             Console.ReadKey();
         }
     }
