@@ -54,6 +54,9 @@ namespace ErsteKlasse
             Box neueKiste = new Box(10, 2, 5);
             neueKiste.DisplayInfo();
 
+            Box nochein = new Box(2, 4, 6);
+            nochein.DisplayInfo();
+
 
 
             //////Code vom Lehrer....
