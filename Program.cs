@@ -67,7 +67,15 @@ namespace ErsteKlasse
             //////box.DisplayInfo();
 
             //////Console.ReadKey();
+            Console.WriteLine(); 
+            Console.WriteLine();
+            Console.WriteLine();
 
+
+            //Members und Finalizers bzw, destruktoren...
+            Members member1 = new Members();
+            member1.Introducing(true);
+            Console.ReadKey();
 
             Console.ReadKey();
         }

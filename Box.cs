@@ -31,6 +31,16 @@ namespace ErsteKlasse
         // vor allem da es wir nie ändern
 
         // PROPERTIES "code Schnippet prop. Erstell ganz normaler get und set dabei.
+        // Properties wie auf der Arbeit: Code Schnippet ist: propfull:
+        private int myVar;
+
+        public int MyProperty
+        {
+            get { return myVar; }
+            set { myVar = value; }
+        }
+        //----------------------------- nicht einmal verwendet, geht aber schnell
+
         public int Length { get; set; }
 
         ///////// Das bedeutet sowas wie:
